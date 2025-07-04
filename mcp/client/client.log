@@ -1,0 +1,32 @@
+Connected to server with tools: ['get_alerts', 'get_forecast']
+
+MCP Client Started!
+Type your queries or 'quit' to exit.
+
+Query: hi
+
+Hello! How can I assist you today?
+
+Query: what is LLM short for?
+
+LLM stands for **Large Language Model**. It refers to a type of artificial intelligence model designed to understand, generate, and manipulate human language. These models are trained on vast amounts of text data and can perform tasks like answering questions, writing content, translating languages, and more. Examples include OpenAI's GPT models, Google's Bard, and Meta's LLaMA.
+
+In other contexts, LLM can also stand for:
+- **Master of Laws** (Latin: *Legum Magister*), a postgraduate academic degree in law.
+- **Low-Level Medium**, a term used in some technical or scientific fields.
+
+However, in the context of AI and technology, it most commonly refers to Large Language Models.
+
+Query: what is the weather alert in NewYork?  
+
+[Calling tool get_alerts with args {'state': 'NY'}]
+As of now, there are **no active weather alerts** for New York State. However, weather conditions can change rapidly, so it's always a good idea to check for the latest updates if you're planning outdoor activities or travel.     
+
+### Recommended Sources for Real-Time Updates:
+1. **National Weather Service (NWS):** [https://www.weather.gov/](https://www.weather.gov/)
+2. **Weather Apps:** AccuWeather, The Weather Channel, or NOAA Weather Radar.
+3. **Local News:** NYC-specific alerts can be checked via NYC Emergency Management ([https://nyc.gov/emergencymanagement](https://nyc.gov/emergencymanagement)).
+
+Would you like help checking forecasts for a specific city (e.g., NYC, Buffalo)? Let me know!
+
+Query:
